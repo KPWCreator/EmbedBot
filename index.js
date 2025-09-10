@@ -122,4 +122,5 @@ client.on(Events.InteractionCreate, async (interaction) => {
          */
         await interaction.reply({ embeds: [embed] });
     }
-})
+
+});
